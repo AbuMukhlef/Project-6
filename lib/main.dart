@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tickets_app/screens/splash_screen.dart';
 import 'package:tickets_app/services/di_container.dart';
-
+//
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await DIContainer.setup();
